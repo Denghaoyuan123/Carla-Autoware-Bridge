@@ -13,7 +13,7 @@ Change LiDAR input topic and LiDAR container in ```tier4_localization_component.
 <arg name="input_pointcloud" default="/sensor/lidar/front" description="The topic will be used in the localization util module"/>
 # container name
 <arg
-    name="lidar_container_name"
+    name="pointcloud_container_name"
     default="/sensing/lidar/front/pointcloud_preprocessor/pointcloud_container"
     description="The target container to which lidar preprocessing nodes in localization be attached"
   />
