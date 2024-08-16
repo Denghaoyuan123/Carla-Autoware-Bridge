@@ -2,7 +2,7 @@
 The following changes in Autoware are required in order to work with CARLA and the CARLA-Autoware-Bridge.
 
 ## ```autoware_launch``` package
-Change the path to the sensor model configuration directory in ```autoware.launch.xml``` to
+Change the path to the sensor model configuration directory in ```autoware.launch.xml``` (line 72) to
 ```xml
 <arg name="config_dir" value="$(find-pkg-share carla_t2_sensor_kit_description)/config/"/>
 ```
